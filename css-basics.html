@@ -1,0 +1,255 @@
+
+
+<html>
+
+	<head>
+	
+		<title>CSS basics</title>
+		
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+		
+		<style type="text/css">
+		
+			.red {
+			
+				color:red
+			
+			}
+			
+			.large {
+			
+				font-size:200%
+			
+			}
+			
+			#green {
+			
+				color:green
+			
+			}
+			
+			.underlined {
+			
+				text-decoration:underline
+			
+			}
+			
+			#first-section {
+			
+				color:blue;
+				background-color:#58FA82;
+				width:200px;
+				position:relative;
+				left:150px;
+				top:100px;
+				z-index:1
+				
+			}
+			
+			#second-section {
+			
+				color:red;
+				background-color:yellow;
+				width:200px;
+				position:relative;
+				z-index:2;
+				opacity:0.5;
+				padding:5px 10px
+			}
+			
+			body {
+			
+				margin:0;
+				padding:0;
+			}
+			
+			#square-red {
+			
+				background-color:red;
+				border:10px yellow double;
+			
+			}
+			
+			#square-blue {
+			
+				background-color:blue;
+				border-style:ridge solid dotted dashed;
+				border-color:orange pink brown black;
+				border-width:10px 5px 2px 1px;
+			
+			}
+			
+			#square-green {
+			
+				background-color:green;
+				border-radius:50%;
+			
+			}
+			
+			.square {
+			
+				width:100px;
+				height:100px;
+				margin:40px;
+				float:left;
+				
+			}
+			
+			#fonts {
+				
+				font-family: 'Source Sans Pro', sans-serif;
+								
+			}
+	
+			.bold {
+			
+				font-weight: bold;
+				
+			}
+			
+			.italic {
+			
+				font-style: italic;
+				
+			}
+			
+			.bold {
+			
+				font-weight: bold;
+				
+			}
+			
+			.underlined {
+			
+				text-decoration: underline;
+				
+			}
+			
+			.big {
+			
+				font-size: 200%;
+			
+			}
+			
+			#align {
+			
+				width:300px;
+				height:150px;
+				background-color:green;
+				margin:10px;
+				
+			}
+			
+			.right {
+			
+				text-align:right;
+				
+			}
+			
+			.centered {
+			
+				text-align:center;
+				
+			}
+			
+			.justified {
+			
+				text-align:justify;
+				
+			}
+			
+			a {
+			
+				text-decoration: none;
+		
+			}
+			
+			a:hover {
+			
+				text-decoration: underline;
+				color:green;
+			
+			}
+			
+			a:visited {
+			
+				color:purple;
+				
+			}
+			
+		</style>
+		
+	</head>
+
+	<body>
+	
+	<h1><u>Styling.</u></h1>
+	<p>Classes: can be used more than once.</p>
+	<p>IDs: can only be used once.</p>
+	
+		<div>
+			
+			<p class="red">Class red.</p>
+			
+			<p class="large">Class large.</p>
+			
+		</div>
+
+		<h1 class="red" "large">Class red and large.</h1>
+		
+		<p id="green">This is ID green. <span class="underlined">And this text is underlined using span.</span> </p>
+	
+	<hr>
+	
+	<h1><u>Positioning.</u></h1>
+	
+		<div id="first-section">
+			
+			<p>This is the first section, floated to the left.</p>
+		
+		</div>	
+		
+		<div id="second-section">
+		
+			<p>And this is the second section...</p>
+			
+			<p>...floated to the right.</p>
+			
+		</div>
+				
+		<div id="square-red" class="square"></div>
+		<div id="square-blue" class="square"></div>
+		<div id="square-green" class="square"></div>
+		
+		<p>This paragraph is not floated. We can use clear-float to center it below any floats.</p>
+		<p>Relative positioning: pos relative to where it would have been been.</p>
+		<p>Absolute positioning: removes object out of float of page, all other objects positioned as if the object wasn't there, eg. picture over top of page.</p>
+		<p>Fixed positioning: same as absolute except object stays on the screen when you scroll, eg. keep menu at top of screen.</p>
+		<p>margin:100px 50px puts 100 pixels at top and bottom, and 50 pixels at right and left of object.</p>
+		
+	
+	<hr>
+	
+	<h1><u>Text.</u></h1>	
+	
+		<p id="fonts" class="bold">This is bold text.</p>
+		<p id="fonts" class="italic">This is italic text. <span class="bold">And this is bold and italic.</span></p>
+		<p id="fonts" class="underlined">This is underlined text.</p>
+		<p id="fonts" class="big">This is bigger text.</p>
+		
+		<div id="align">
+			<p class="right">This is right aligned text.</p>
+			<p class="centered">This is centered text.</p>
+			<p class="justified">This text is justified. This text is justified. This text is justified. This text is justified. This text is justified. This text is justified. </p> 
+		</div>
+		
+	<hr>
+	
+	<h1><u>Styling links.</u></h1>	
+		
+		<p>This is a <a href="http://www.google.com">link</a> that is not underlined unless you hover.</p>
+		<p>This is a <a href="http://www.google.com" target="_blank">link</a> that opens in a new tab.</p>
+		
+	</body>
+	
+</html>
