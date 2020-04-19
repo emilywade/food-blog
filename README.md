@@ -1,4 +1,4 @@
 # web-dev-html
-Repo for Udemy Web Development Course Chapter 1
+Repo for Udemy Web Development Course Chapter 1+2
 
 
