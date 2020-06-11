@@ -5,5 +5,6 @@
 - replicating BBC news page using CSS
 - JavaScript guessing game
 - JavaScript reaction timer
-
+- jQuery data validation form
+- jQuery code player (HTML, CSS, Javascript and output)
 
