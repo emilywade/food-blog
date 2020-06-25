@@ -8,4 +8,5 @@
 - jQuery data validation form
 - jQuery code player (HTML, CSS, Javascript and output)
 - using Bootstrap (scrollspy, navbar)
+- Bootstrap website for 'MyApp'
 
